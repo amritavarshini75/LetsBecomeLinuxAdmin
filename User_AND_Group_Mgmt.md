@@ -1,4 +1,4 @@
-# Linux USER MANAGEMENT BASICS — FRIENDLY EDITION
+# Linux USER MANAGEMENT — FRIENDLY EDITION
 
 As a linux admin in your org you are expected to manage the user access of the employees which includes CRUD operations of the user and
 you will be administrating the users, their activites and lot more. So learn these commands and when you use them at your work..come thank me :p
