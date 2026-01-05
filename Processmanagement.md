@@ -1,4 +1,3 @@
-Here’s the same content cleaned up and structured as a **proper Markdown (`.md`) file**:
 
 ````md
 # Process Management Commands
