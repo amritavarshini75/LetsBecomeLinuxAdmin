@@ -42,6 +42,21 @@ nproc
 ````
 <img width="221" height="28" alt="image" src="https://github.com/user-attachments/assets/f22b966d-f342-43a5-a6a8-cec8f8d4028b" />
 
+## 4. disk space usage command (df -h)(df means disk free)
+* This command will give disk space usage of the linux system in a human readable format
+```bash
+df -h
+````
+<img width="368" height="117" alt="image" src="https://github.com/user-attachments/assets/87f62503-c574-4072-8481-77fefc4f4760" />
+
+*If you want to dig deeper into a directory and understand its disk utilization stats - navigate to that directory
+and give du -sh 
+```bash
+cd /<directory_name>
+du -sh
+````
+
+
 
 
 
