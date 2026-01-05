@@ -37,4 +37,5 @@ kill -STOP <pid>
 ```bash
 kill -CONT <pid>
 ```
+<img width="959" height="351" alt="image" src="https://github.com/user-attachments/assets/30b6d19b-e12b-490d-92e9-6dbf2e80943c" />
 
