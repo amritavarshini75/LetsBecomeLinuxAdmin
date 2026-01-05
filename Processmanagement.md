@@ -39,10 +39,3 @@ kill -STOP <pid>
 kill -CONT <pid>
 ```
 
-```
-
-If you want, I can also:
-- Add **real JVM thread dump examples**
-- Explain **when NOT to use `-9`**
-- Convert this into a **Linux troubleshooting notes doc** for interviews or work
-```
