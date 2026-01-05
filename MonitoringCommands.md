@@ -37,10 +37,11 @@ free -h
 
 ## 3. nproc command
 * This command will give you the number of cpus available on the machine
-'''bash
+```bash
 nproc
 ````
 <img width="221" height="28" alt="image" src="https://github.com/user-attachments/assets/f22b966d-f342-43a5-a6a8-cec8f8d4028b" />
+
 
 
 
