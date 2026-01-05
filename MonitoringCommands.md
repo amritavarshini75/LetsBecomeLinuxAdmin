@@ -49,7 +49,7 @@ df -h
 ````
 <img width="368" height="117" alt="image" src="https://github.com/user-attachments/assets/87f62503-c574-4072-8481-77fefc4f4760" />
 
-*If you want to dig deeper into a directory and understand its disk utilization stats - navigate to that directory
+* If you want to dig deeper into a directory and understand its disk utilization stats - navigate to that directory
 and give du -sh 
 ```bash
 cd /<directory_name>
