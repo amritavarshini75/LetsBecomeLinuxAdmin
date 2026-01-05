@@ -9,7 +9,7 @@ top
 
 <img width="950" height="341" alt="image" src="https://github.com/user-attachments/assets/da7f20fe-03e5-46da-bdac-d18c8d9fa545" />
 
-*The enhanced version of top is the htop. It does not come inbuilt on thr linux server. You can install using yum install htop. It gives you a better visualization of the top command output and easier to interpret the information as well.
+* The enhanced version of top is the htop. It does not come inbuilt on thr linux server. You can install using yum install htop. It gives you a better visualization of the top command output and easier to interpret the information as well.
 
 ```bash
 htop
