@@ -48,3 +48,6 @@ systemctl list-unit --type=service
 
 <img width="959" height="351" alt="image" src="https://github.com/user-attachments/assets/30b6d19b-e12b-490d-92e9-6dbf2e80943c" />
 
+## Services vs Process
+*Services are a special kind of process that start upon booting of a server
+
