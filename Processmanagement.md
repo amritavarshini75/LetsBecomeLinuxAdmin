@@ -1,5 +1,5 @@
 
-````md
+
 # Process Management Commands
 
 ## 1. Kill a Process Immediately
