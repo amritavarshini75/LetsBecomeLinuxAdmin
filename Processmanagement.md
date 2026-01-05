@@ -1,6 +1,48 @@
-Process management commands
+Here’s the same content cleaned up and structured as a **proper Markdown (`.md`) file**:
 
-kill -9 pid - this will stop the process fully
-kill -3 pid - in case a developer asks you for a thread dump for a particular process then you use this command to safely 
-take the thread dump and provide the developer process threads oriented data which helps them to figure out which function or which code is taking up more space, cpu utilization stats and much more.
-kill -STOP pid - this command is used to temporarily suspend a process on the server
+````md
+# Process Management Commands
+
+## 1. Kill a Process Immediately
+```bash
+kill -9 <pid>
+````
+
+* Forcefully stops a process.
+* The process is terminated immediately without cleanup.
+* Use only when the process does not respond to normal signals.
+
+## 2. Take a Thread Dump (for Developers)
+
+```bash
+kill -3 <pid>
+```
+
+* Used when a developer asks for a **thread dump** of a running process.
+* Safely generates thread dump information (commonly for JVM processes).
+* Helps developers analyze:
+
+  * Which threads are running or blocked
+  * Which functions or code paths are consuming more CPU
+  * Deadlocks or performance bottlenecks
+
+## 3. Temporarily Suspend a Process
+
+```bash
+kill -STOP <pid>
+```
+
+* Pauses (suspends) a running process without terminating it.
+* The process can be resumed later using:
+
+```bash
+kill -CONT <pid>
+```
+
+```
+
+If you want, I can also:
+- Add **real JVM thread dump examples**
+- Explain **when NOT to use `-9`**
+- Convert this into a **Linux troubleshooting notes doc** for interviews or work
+```
