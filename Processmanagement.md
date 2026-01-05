@@ -37,5 +37,14 @@ kill -STOP <pid>
 ```bash
 kill -CONT <pid>
 ```
+
+## 4. List the services running in a linux machine
+
+```bash
+systemctl list-unit --type=service
+```
+
+* This command will list all the services running on a linux server.
+
 <img width="959" height="351" alt="image" src="https://github.com/user-attachments/assets/30b6d19b-e12b-490d-92e9-6dbf2e80943c" />
 
