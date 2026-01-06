@@ -29,7 +29,9 @@ ifconfig
 * The concept of breaking down a IP Range into parts and using them for different purposes is called subnetting. It helps us to create a secure network with in a IP Range. 
 * If there's a IP Range say 10.3.2.1/20 - you can divide this range into sub ranges and that particular subrange is called a subnet.
 * Usually subnetting can be done for VPC CIDR range and Classic/ On Prem Infrastructure dedicated IP Range.
-* For VPC CIDR Range - 
+* For VPC CIDR Range - The user will get to decide the CIDR range and will have full control over the IP Range and the subnets
+* For On Prem or Classic Infra - The Cloud Provider or a Provider will provide you a dedicated IP range which usually covers some extra IP addresses compared to the VPC and you will have control over the IP Range provided to you by the provider.
+
 
 
 
