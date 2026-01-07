@@ -32,6 +32,34 @@ ifconfig
 * For VPC CIDR Range - The user will get to decide the CIDR range and will have full control over the IP Range and the subnets
 * For On Prem or Classic Infra - The Cloud Provider or a Provider will provide you a dedicated IP range which usually covers some extra IP addresses compared to the VPC and you will have control over the IP Range provided to you by the provider.
 
+*  Advantages of using subnet: It provides security, privacy and isolated network.
+
+You can create a subnet in home network as well.
+
+Types of subnets
+Private subnet -> This network does not have access to internet
+Public subnet->  This network has access to internet
+
+
+
+  BTW , how do you provide access to internet for a subnet?
+by attaching the route tables to the network and the destination in the route table must be internet gateway - will dive deeper into this later
+
+Whenever you are subnetting a network you will basically be giving an IP Range (Range of IP addresses or number of IP addresses present within that network) - This is called CIDR range. Also note that whenever are subnetting you will be asked to provide a CIDR range.
+
+Note : most of the private subnets IP's start with - 192,172 or 10 (This is a best practice)
+
+Ports:
+
+Long explanation but bear with me
+So basically computers or servers have different kinds of services that are running. Now, the computer if no port concept is in place we don't know which service is running where- here lets use a analogy of tv channels. once you switch on the tv you know that TV will have dedicated channel number for disney and another for mtv. similarly to identify a service running on a server we have numbers called ports. so you can relate like tv channels have channel numbers whereas services running on a server or computer have ports. The tv channels are decided upon and it is slightly more complicated but ports is something engineers invented themselves and agreed upon. so for example to access a service on a server we use server ip and port. eg: 10.1.1.1:8080 - something like this
+
+usually there are 65536 port numbers in the word
+1-1023 are reserved for well-known services.
+eg: 443 - HTTPS, 22-SSH etc
+
+so when a server/computer receives incoming traffic dedicated to a particular service - that traffic is routed to that particular service using the port dedicated to it.
+
 
 
 
